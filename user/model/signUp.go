@@ -4,29 +4,29 @@ import (
 //"time"
 )
 
-//user model
-// type User struct {
-// 	FirstName string `json:"first_name" valid:"required"`
-// 	LastName  string `json:"last_name"  valid:"required"`
-// 	UserName  string `json:"user_name"  valid:"required"`
-// 	EmailID   string `json:"email_id"   valid:"required"`
-// 	MobileNo  int64  `json:"mobile_no"  valid:"required"`
-// 	Password  string `json:"password"   valid:"required"`
-// 	Sex       string `json:"sex" valid:"required"`
-// 	Country   string `json:"country" valid:"required"`
-// 	IsActive  int    `json:"is_active"`
-// }
+user model
 type User struct {
-	FirstName string `json:"first_name"`
-	LastName  string `json:"last_name" `
-	UserName  string `json:"user_name" `
-	EmailID   string `json:"email_id" `
-	MobileNo  int64  `json:"mobile_no"`
-	Password  string `json:"password"`
-	Sex       string `json:"sex" `
-	Country   string `json:"country" `
+	FirstName string `json:"first_name" valid:"required"`
+	LastName  string `json:"last_name"  valid:"required"`
+	UserName  string `json:"user_name"  valid:"required"`
+	EmailID   string `json:"email_id"   valid:"required"`
+	MobileNo  int64  `json:"mobile_no"  valid:"required"`
+	Password  string `json:"password"   valid:"required"`
+	Sex       string `json:"sex" valid:"required"`
+	Country   string `json:"country" valid:"required"`
 	IsActive  int    `json:"is_active"`
 }
+// type User struct {
+// 	FirstName string `json:"first_name"`
+// 	LastName  string `json:"last_name" `
+// 	UserName  string `json:"user_name" `
+// 	EmailID   string `json:"email_id" `
+// 	MobileNo  int64  `json:"mobile_no"`
+// 	Password  string `json:"password"`
+// 	Sex       string `json:"sex" `
+// 	Country   string `json:"country" `
+// 	IsActive  int    `json:"is_active"`
+// }
 
 //login
 type LoginInfo struct {
